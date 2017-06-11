@@ -17,8 +17,8 @@ public class Pytanie : MonoBehaviour {
 
 
     void Start() {
-        string[] pytania = { "Język programowania niskiego poziomu", "Nazwa popularnego antywirusa", "Nazwa interfejsu podłącznia twardego dysku w komputerach serwerowych", "Najmniejszy element obrazu wyświetlanego na ekranie", "Nazwa standardowego edytora obrazu dla systemu Windows", "Rząd klawiszy używany do pisania", "Materiał z którego zrobiony procesor", "Cytrusowy drzewo z pachnących kwiatów", "Ten ptak może latać tyłem do przodu", "Wiedząc to, możemy zrozumieć, jak działa urządzenie" , "Jedyne jadowite ssaki na świecie" };
-        string[] odpowiedzi = { "ASSEMBLER", "AVAST", "SCSI", "PIKSEL", "PAINT", "KŁAWIATURA", "KRZEM", "BERGAMOTKA", "KOLIBER", "STRUKTURA", "DZIOBAK" };
+        string[] pytania = { "Jedynym krajem, gdzie za 1983 rok nie odnotowano ani jednego urodzenia", "Ma tendencję do spożycia tych samych fraz częściej, niż by się chciało", "Potomstwa tego zwierzęcia stają się podłogi w zależności od temperatury otoczenia", "Kto śpi na plecach, według słów chińskich mędrców", "Z japońskiego to słowo tłumaczy się jako Boski wiatr", "Członek zespołu muzycznego", "Co prowadzi dźwięk dziesięć razy szybciej powietrza","Język programowania niskiego poziomu", "Nazwa popularnego antywirusa", "Nazwa interfejsu podłącznia twardego dysku w komputerach serwerowych", "Najmniejszy element obrazu wyświetlanego na ekranie", "Nazwa standardowego edytora obrazu dla systemu Windows", "Rząd klawiszy używany do pisania", "Materiał z którego zrobiony procesor", "Cytrusowy drzewo z pachnących kwiatów", "Ten ptak może latać tyłem do przodu", "Wiedząc to, możemy zrozumieć, jak działa urządzenie" , "Jedyne jadowite ssaki na świecie" };
+        string[] odpowiedzi = { "WATYKAN","PAPUGA" ,"KROKODYL","ŚWIĘTY" ,"KAMIKADZE","WOKALISTA","GRANIT","ASSEMBLER", "AVAST", "SCSI", "PIKSEL", "PAINT", "KŁAWIATURA", "KRZEM", "BERGAMOTKA", "KOLIBER", "STRUKTURA", "DZIOBAK" };
 
         int tmp = UnityEngine.Random.Range(0, pytania.Length);
 
